@@ -15,6 +15,7 @@ Family: Raleway, sans-serif;
 Weights: 300, 400, 700,
 
 */
+/* Mobile first workflow */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
@@ -99,6 +100,56 @@ h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+#projects-title {
+    color: hsl(215, 50%, 23%);
+    font-weight: 700;
+    /* margin: 0 1rem; */
+}
+
+.project-tile {
+    border: 1px solid hsl(215, 50%, 23%);
+    width: 85%;
+    min-height: 100%;
+    margin: 2.5rem auto;
+    /* padding: 1rem; */
+}
+h3 {
+    /* border: 2px solid pink; */
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    background-color: hsl(215, 50%, 23%);
+}
+/* img{
+
+} */
+.project-footer {
+    background-color: hsl(215, 50%, 23%);
+    margin: 0;
+    padding: 3rem 0;
+    text-align: center;
+}
+.description {
+    /* border: 2px solid palevioletred; */
+    /* padding: 0.5rem 0; */
+    margin: 0 0 3rem 0;
+}
+.demo-btn {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    background-color: hsl(356, 84%, 38%);
+    border: none;
+    border-radius: 2px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.demo-btn, a {
+    text-decoration: none;
+}
+.demo-btn:hover, a:hover {
+    text-decoration: underline;
+}
+
 
 #working-together {
     /* centering the text + responsive */
