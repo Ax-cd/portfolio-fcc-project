@@ -44,6 +44,8 @@ header {
     width: 100%;
     height: 5rem;
     padding-bottom: 0.5rem;
+    scroll-behavior: smooth;
+    /* scroll-margin: 1,5; */
 }
 
 
@@ -71,13 +73,18 @@ a:visited {
 #welcome-section {
     background-color: hsl(215, 50%, 23%);
     min-height: 100vh;
-    margin-top: 5rem;
+    display: flex;
 }
 /* centering the text + responsive */
+.center-text {
+    margin: auto;
+}
 h1 {
     font-size: 3.2rem;
     text-align: center;
-    padding-top: 20rem;
+    /* padding-top: 20rem; */
+    /* margin-top: 50%; */
+    /* margin: auto; */
     font-weight: 700;
 }
 #intro {
@@ -111,10 +118,7 @@ h2 {
     width: 30rem;
     height: 40rem;
     max-width: 85%;
-    margin-top: 5rem;
-    margin-bottom: 15rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5rem auto 15rem;
 }
 h3 {
     margin: 0;
@@ -167,12 +171,18 @@ img {
 
 
 #working-together {
-    /* centering the text + responsive */
     background-color: hsl(215, 50%, 23%);
     min-height: 90vh;
     padding-top: 1rem;
+    display: flex;
 }
-
+.center-text > a {
+    text-decoration: none;
+    padding: 1rem;
+}
+.center-text >a:hover {
+    text-decoration: underline;
+}
 
 
 
